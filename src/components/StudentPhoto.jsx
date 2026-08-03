@@ -1,10 +1,9 @@
 import React from 'react'
-import StudentPhoto from './components/StudentPhoto.jsx'
 
 const StudentPhoto = () => {
   return (
     <div>
-      <img src="" alt="Anand" />
+      <img src={null} alt="Anand" />
     </div>
   )
 }

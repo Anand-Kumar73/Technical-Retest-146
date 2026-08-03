@@ -1,14 +1,13 @@
 import React from 'react'
-import StudentDetail from './components/StudentDetail'
 
-const StudentDetail = () => {
+const StudentDetail = ({ student }) => {
   return (
     <div>
-      <h2>{Student.name}</h2>
-      <p>Roll No:{student.roll}</p>
-      <p>Branch:{student.branch}</p>
-      <p>Semester:{student.sem}</p>
-      <p>College:{student.college}</p>
+      <h2>{student?.name}</h2>
+      <p>Roll No: {student?.roll}</p>
+      <p>Branch: {student?.branch}</p>
+      <p>Semester: {student?.sem}</p>
+      <p>College: {student?.college}</p>
     </div>
   )
 }

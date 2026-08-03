@@ -1,11 +1,10 @@
 import React from 'react'
-import StudentPhoto from '../components/StudentPhoto'
-import StudentInfo from '../components/StudentInfo'
+import studentImage from '../assets/hero.png'
 
 const StudentCard = () => {
   return (
     <div>
-      <img src="" alt="Anand" />
+      <img src={studentImage} alt="Anand" width={120} height={120} />
       <h2>Anand kumar</h2>
       <p>Roll No: 146</p>
       <p>Branch: CSE</p>
