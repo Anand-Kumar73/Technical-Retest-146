@@ -1,4 +1,6 @@
 import React from 'react'
+import StudentPhoto from '../components/StudentPhoto'
+import StudentInfo from '../components/StudentInfo'
 
 const StudentCard = () => {
   return (

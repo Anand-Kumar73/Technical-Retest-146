@@ -1,19 +1,17 @@
 import React from 'react'
 import StudentCard from '..cpmponents/StudentCard'
 import { useNavigate } from 'react-router-dom'
+import navbar from '../components/Navbar'
+import StartButton from "../components/StartButton";
+import Navbar from '../components/Navbar';
 
 const HomePage = () => {
-  const navigate=useNavigate();
- function handleClick(){
-  navigate("/question-form")
- }
   return (
     <div>
-    
+    <Navbar/>
+     <h1>Student Id Card</h1>
       <StudentCard/>
-      <button onClick={handleClick}>
-        Solve Question
-      </button>
+      <StartButton/>
     </div>
   )
 }

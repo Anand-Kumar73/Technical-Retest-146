@@ -7,7 +7,7 @@ const questions = [
   {
     id: 2,
     question: "What is JSX?",
-    answer: "JSX is a syntax extension of JavaScript."
+    answer: "JSX is a type where we can write html code inside js"
   },
   {
     id: 3,
