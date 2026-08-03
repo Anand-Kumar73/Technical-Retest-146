@@ -5,9 +5,11 @@ import StudentDetail from './StudentDetail'
 const QuestionCard = () => {
   return (
     <div>
-      <StudentPhoto/>
-      <StudentDetail/>
+     <h3>{item.name}</h3>
+     <p>Question:{item.question}</p>
+     <p>{item.answer}</p>
     </div>
+    
   )
 }
 
